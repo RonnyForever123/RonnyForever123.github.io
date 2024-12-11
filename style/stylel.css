@@ -1,0 +1,131 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:0px solid black;
+}
+.wrap{
+    background-image: url(../media/fons/backs.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.filter{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100vh;
+    gap:70px;
+}
+
+header{
+    display:flex;
+    flex-direction:row;
+    font-family: 'Courier New', Courier, monospace;   
+    font-size:50px;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-bottom: 2px solid black;
+    box-shadow:0px 0px 30px black;
+}
+  a{
+   text-decoration: none;
+   font-weight: bold;
+    color:black;
+  }
+  .st{
+    display: flex;
+    align-items: center;
+    font-size:75px;
+  }
+form{
+    display: flex;
+    border:1px solid #000000;
+    justify-content: center;
+    background-image: url(../media/gif/sport1.gif);
+    background-position-x: 50%;
+    background-size:cover;
+    border-radius: 20px;
+}
+.filt{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 650px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 150px rgb(160, 7, 7);
+    justify-content: center;
+    align-items: center;
+    gap:44px;
+    border-radius: 20px;
+}
+input{
+    width: 500px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    font-size:30px;
+    background: rgba(255, 255, 255, 0.5);
+    border:2px solid black;
+    color:black;
+}
+::placeholder{
+    color:black;
+}
+.btn{
+    background: rgba(25, 57, 202, 0.7);
+}
+.btn:hover{
+    background: rgba(36, 255, 54, 0.7);
+    color:black;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    border-top:2px solid black;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    font-size:25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow:0px 0px 30px black;
+}
+
+.politic:hover{
+    color:rgb(177, 0, 0);
+    text-shadow: 0px 0px 5px black;
+}
+.colleg:hover{
+    color:rgb(177, 0, 0);
+    text-shadow: 0px 0px 5px black;
+}
+h1{
+    font-size:70px;
+    letter-spacing: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgba(32, 70, 209, 0.8);
+    text-shadow:0px 0px 10px rgb(255, 255, 255);
+}
+p{
+    display: flex;
+    font-size:30px;
+    margin-bottom: 10px;
+    font-family: cursive;
+    color:white;
+   gap:10px;
+}
+.log:hover{
+    color:rgb(23, 59, 178);
+}
+.log{
+    border:2px solid;
+    border-style:dashed;
+}
